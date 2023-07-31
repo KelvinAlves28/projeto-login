@@ -19,7 +19,7 @@ body, html{
 }
 
 main{
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
 }
@@ -44,18 +44,19 @@ section#login > div#imagem{
     display: block;
     background: white url(../imagens/img\ projeto\ final.jpg) no-repeat fixed center center;
     background-size: cover;
-    height: 200px;
+    height: 150px;
 }
 
-h1{
+div#formulario > h1{
     text-align: center;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
-p{
+div#formulario > p{
+    font-size: 0.8em;
     text-align: center;
 }
 
 section#login > div#formulario{
     display: block;
-    padding: 10px;
+    padding: 15px;
 }
