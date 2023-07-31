@@ -16,7 +16,6 @@ Grandes telas: acima de 1200px
     }
     section#login{
         width: 80vw;
-        height: 70vh;
     }
 
     section#login > div#imagem{
@@ -39,7 +38,6 @@ Grandes telas: acima de 1200px
 
     section#login{
         width: 70vw;
-        height: 70vh;
     }
 
     section#login > div#imagem{
