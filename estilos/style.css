@@ -69,6 +69,7 @@ form > div.campo{
 }
 form > div.campo > p{
     font-size: 0.9em;
+    text-indent: 10px;
 }
 
 form > div.campo > input{
@@ -78,10 +79,7 @@ form > div.campo > input{
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
-}
-
-form > div.campo > input::placeholder{
-    text-indent: 10px;
+    padding-left: 10px;
 }
 
 form > input[type=submit]{
